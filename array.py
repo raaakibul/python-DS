@@ -17,3 +17,10 @@ x = np.array([1,2,3,4])
 y = np.array([5,6,7,8])
 
 print(x+y)
+
+# fill arrays
+# np.full()
+# np.ones()
+# np.empty()
+zero_array = np.zeros((5,7,3))
+print(zero_array)

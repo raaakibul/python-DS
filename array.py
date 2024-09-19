@@ -24,3 +24,9 @@ print(x+y)
 # np.empty()
 zero_array = np.zeros((5,7,3))
 print(zero_array)
+
+# range functions
+f = np.array([0,5,10,15,20])
+f1 = f *2 - f**2
+
+print(f1)

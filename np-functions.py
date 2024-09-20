@@ -7,3 +7,4 @@ a = np.array([
 ])
 
 print(np.sin(a))
+print(np.cos(a))

@@ -14,4 +14,20 @@ print(np.size(a))
 
 a = a.reshape((2,6))
 print(a)
+# 1 dimensional array
 print(a.flatten())
+
+print(a.flat[7])
+
+b = np.array([
+    [10,20,30,40],
+    [50,60,70,80],
+    [70,80,10,20]
+    
+])
+
+c = np.concatenate((a,b))
+c2 =np.stack((a,b))
+print(c)
+
+print(c2)

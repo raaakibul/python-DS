@@ -14,3 +14,4 @@ print(np.size(a))
 
 a = a.reshape((2,6))
 print(a)
+print(a.flatten())

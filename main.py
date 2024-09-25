@@ -10,3 +10,9 @@ b = np.array([
     [1,3,5,6]
 ])
 print(b)
+
+print(a.ndim)
+print(b.ndim)
+print(b.shape)
+
+print(a.size)

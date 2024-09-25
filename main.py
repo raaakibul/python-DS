@@ -1,6 +1,6 @@
 import numpy as np 
 
-a = np.array([1,2])
+a = np.array([1,2,3,4,5])
 print(a)
 
 # multi dimensional arrays
@@ -16,3 +16,11 @@ print(b.ndim)
 print(b.shape)
 
 print(a.size)
+
+# Elements and indexing 
+print(a)
+print(a[2])
+
+# Advanced indexing
+z = a[[0,2,4]]
+print(z)

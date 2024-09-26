@@ -26,5 +26,9 @@ z = a[[0,2,4]]
 print(z)
 
 # initialization zeros
-x = np.ones((2,2))
+x = np.ones((3,3))
 print(x)
+
+y = np.full((2,2),99, dtype='int32')
+z = np.full_like(x,12)
+print(z)

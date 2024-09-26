@@ -24,3 +24,7 @@ print(a[2])
 # Advanced indexing
 z = a[[0,2,4]]
 print(z)
+
+# initialization zeros
+x = np.ones((2,2))
+print(x)

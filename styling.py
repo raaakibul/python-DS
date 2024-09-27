@@ -9,5 +9,10 @@ style.use('grayscale')
 x = np.arange(0,30,0.2)
 y =np.sin(x)
 
+# plt.grid(True)
+plt.title('Sine function')
+# plt.suptitle('I am bigger')
+
+
 plt.plot(x, y)
 plt.show()

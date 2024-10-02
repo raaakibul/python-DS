@@ -10,3 +10,6 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+print(df.size)
+print(df.dtypes)
+print(df.T)

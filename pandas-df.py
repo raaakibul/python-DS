@@ -15,3 +15,9 @@ print(df.dtypes)
 print(df.T)
 
 print(df['name'].iloc[1])
+print(df.iloc[1])
+
+# plotting data
+
+df['Age'].plot()
+plt.show()

@@ -20,4 +20,6 @@ print(df.iloc[1])
 # plotting data
 
 df['Age'].plot()
+df.hist()
+df.plot.bar()
 plt.show()
